@@ -8,6 +8,7 @@ License gpl-3.0 http://www.gnu.org/licenses/gpl-3.0-standalone.html
 'use strict';
 /**
  * Clones non native JavaScript functions, or references native functions.
+ * @author <a href="mailto:matthewkastor@gmail.com">Matthew Kastor</a>
  * @param {Function} func The function to clone.
  * @returns {Function} Returns a clone of the non native function, or a
  *  reference to the native function.
