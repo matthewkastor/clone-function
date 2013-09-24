@@ -1,5 +1,4 @@
 # clone-function
-version 0.0.1
 
 Clones non native JavaScript functions, or references native functions.
 
