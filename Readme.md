@@ -14,15 +14,20 @@ Source code available at: https://github.com/matthewkastor/clone-function/
 
 ## Usage
 
-In node:
-
 ```
 var cloneFunction = require('clone-function');
-console.log(cloneFunction(''));
+var func = function () {
+    return 'wee';
+};
+var copied = func;
+var cloned = cloneFunction(func);
+console.log(func === copied); // true
+console.log(func === cloned); // false
+console.log(func() === cloned()); // true
 ```
 
 In the browser, include `./browser/clone-function_web.js` in your page. `cloneFunction` will
- be available in your page.
+ be available globally in your page.
 
 For full documentation see the docs folder. For examples see the example folder.
 
