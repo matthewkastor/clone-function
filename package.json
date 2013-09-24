@@ -5,8 +5,7 @@
   "main": "./src/clone-function.js",
   "directories": {
     "lib": "src",
-    "doc": "docs",
-    "example": "examples"
+    "doc": "docs"
   },
   "devDependencies": {
     "atropa-jsformatter": ">=0.1.2",
