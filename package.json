@@ -1,6 +1,6 @@
 {
   "name": "clone-function",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clones non native JavaScript functions, or references native functions.",
   "main": "./src/clone-function.js",
   "directories": {
