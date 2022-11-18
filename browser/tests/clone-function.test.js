@@ -17,20 +17,6 @@ describe('clone-function', function () {
         expect(x).toEqual(y);
         expect(x.call(z, 1)).toEqual(y.call(z, 1));
     });
-    it('should throw an error for clones containing functions declared in blocks', function () {
-        var func = function wee (arg) {
-            if(true) {
-                function blah () {
-                    return 10;
-                }
-            }
-            return 'wee';
-        };
-        var fn = function () {
-            cloneFunction(func);
-        };
-        expect(fn).toThrow();
-    });
 });
 
 
